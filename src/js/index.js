@@ -6,7 +6,6 @@ $(document).ready(function () {
 });
 
 
-
 const loadPage = (pagelocation) => {
     $("#LoadedPage").load((pagelocation ? pagelocation : "src/pages/home/index.html"));
 }

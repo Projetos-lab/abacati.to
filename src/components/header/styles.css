@@ -59,3 +59,8 @@
   transform: skewY(-2deg);
   border-top: 15px solid #7cb518;
 }
+
+#redirecionaCardapio{
+  color:#fff;
+  text-decoration: none;
+}
