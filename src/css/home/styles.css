@@ -31,10 +31,10 @@
 #containerSVG {
   width: 70%;
   height: 70%;
-  max-width:400px
+  max-width:500px
 }
 
-#svg {
+#svg_home {
   width: 100%;
   height: 100%;
 }

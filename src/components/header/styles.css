@@ -64,3 +64,7 @@
   color:#fff;
   text-decoration: none;
 }
+
+.contentLogo{
+  cursor: pointer;
+}

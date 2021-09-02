@@ -1,0 +1,47 @@
+<form>
+  <div id="addNew">Adicione um novo paciente</div>
+  <br />
+  <div id="f">
+    <p id="n">
+      Nome
+      <br />
+      <input type="text" id="name" placeholder="Nome" />
+    </p>
+    <br />
+    <div id="t">Idade Peso Altura </div>
+    <input type="text" id="age" placeholder="Idade" />
+    <input type="text" id="weight" placeholder="Peso" />
+    <input type="text" id="height" placeholder="Altura" />
+    <br />
+    <input id="b" type="button" class="add-row" onclick="addRow()" value="Add Row" />
+  </div>
+</form>
+<br />
+<table>
+  <thead>
+    <tr id="tr">
+      <th></th>
+      <th id="nome">Nome</th>
+      <th id="idade">Idade</th>
+      <th id="peso">Peso</th>
+      <th id="altura">Altura</th>
+      <th id="imc">Índice de Massa Corporal</th>
+    </tr>
+  </thead>
+  <tbody id="td">
+    <tr>
+      <td><input type="checkbox" name="record" /></td>
+      <td>Alessandro Eric de Freitas Delvecchio</td>
+      <td>42</td>
+      <td>80</td>
+      <td>1.9</td>
+      <td>22.16</td>
+    </tr>
+  </tbody>
+</table>
+<br />
+<button id="d" type="button" class="delete-row" onclick="deleteRow()">Delete Row</button>
+
+<script>
+  trocaCor();
+</script>
