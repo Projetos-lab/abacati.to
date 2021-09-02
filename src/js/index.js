@@ -13,3 +13,13 @@ const loadPage = (pagelocation) => {
 const changeColorHeader = (NewColor) => {
     $(".borderRotate").css("border-top", "15px solid " + (NewColor ? NewColor : "#7cb518"));
 }
+
+function mostraMenu(){
+    $("#emagrecimento").show();
+    $("#ganho_peso").show();
+}
+
+function escondeMenu(){
+    $("#emagrecimento").hide();
+    $("#ganho_peso").hide();
+}

@@ -10,9 +10,16 @@
       </div>
     </div>
     <div class="nav">
-      <span onClick="loadPage('src/pages/home/index.html')">Home</span>
-      <span onClick="loadPage('src/pages/cardapio/index.html')">Cardápio</span>
-      <span onClick="loadPage('src/pages/cadastro/index.html')">Cadastro</span>
+      <ul class="menu">
+      <li class="margem cursor" onClick="loadPage('src/pages/home/index.html')">Home</li>
+      <li class="margem cursor"><a onmouseover="mostraMenu()" onmouseout="escondeMenu()" onClick="loadPage('src/pages/cardapio/index.html')">Cardápio</a>
+        <ul class="alinha">
+          <li class="cursor menu" onmouseover="mostraMenu()" onmouseout="escondeMenu()"><a class="display" id="emagrecimento" onClick="loadPage('src/pages/cardapio/emagrecimento.html')">Emagrecimento</a></li>
+          <li class="cursor menu" onmouseover="mostraMenu()" onmouseout="escondeMenu()"><a class="display" id="ganho_peso" onClick="loadPage('src/pages/cardapio/ganho_peso.html')">Ganho de Peso</a></li>
+        </ul>
+        </li>
+      <li class="margem cursor" onClick="loadPage('src/pages/cadastro/index.html')">Cadastro</li>
+    </ul>
     </div>
   </div>
   <div class="borderRotate"></div>

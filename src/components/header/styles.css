@@ -52,7 +52,7 @@
   height: 5em;
   background: #fff;
   position: absolute;
-  margin-top: -50px;
+  margin-top: -33px;
   margin-bottom: 20px;
 
 
@@ -67,4 +67,48 @@
 
 .contentLogo{
   cursor: pointer;
+}
+
+.display{
+  display: none;
+}
+
+.menu{
+  list-style:none;
+  float:left;
+}
+
+.menu li{
+  position:relative;
+  float:left;
+}
+
+.menu li  ul{
+  position:absolute;
+  top:25px;
+  left:0;
+  background-color:#5c8001;
+  display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+  border:1px solid #5c8001;
+  display:block;
+  width:150px;
+}
+
+.margem{
+  margin-inline: 40px;
+}
+
+.cursor{
+  cursor: pointer;
+  list-style:none;
+}
+
+.alinha{
+  display: flex;
+  flex-direction: column;
 }
