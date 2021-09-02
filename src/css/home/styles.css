@@ -35,6 +35,6 @@
 }
 
 #svg {
-  width: 100%;
+  width:"Max-width";
   height: 100%;
 }
